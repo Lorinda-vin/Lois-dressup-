@@ -1,0 +1,14 @@
+
+dressup-girl-pwa/
+├── public/
+│   ├── clothes/            ← all your dress images
+│   ├── hair/               ← hairstyles
+│   ├── makeup/             ← makeup overlays
+│   ├── bg/                 ← bedroom background
+│   └── base/               ← base character image
+├── src/
+│   └── App.jsx             ← the React game code
+├── package.json            ← project info & dependencies
+├── manifest.json           ← for offline support (PWA)
+├── service-worker.js       ← caches files for offline use
+└── index.html              ← main web page
